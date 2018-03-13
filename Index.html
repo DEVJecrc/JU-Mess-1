@@ -1,0 +1,29 @@
+<!Doctype=HTML>
+<?php
+include('confirgurationweb.php');
+?>
+<html>
+	<title>Welcome to JU Hostels!</title>
+	<link rel="stylesheet" href="main.css"/>
+	<body background="background.jpg">
+		<h1>Welcome to JU Hostels</h1>
+		<h2>Please login to continue...</h2>
+	<div class="login-page">
+  <div class="form">
+    <form class="register-form" method="post" action="loginaction01.php">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" method="post" action="loginaction01.php">
+      <input type="text" class="form-control" id="regno" placeholder="Enter Registration no." name="regno"/>
+      <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" data-toggle="password"/>
+      <button type="submit" name="login">login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+	</body>
+</html>
