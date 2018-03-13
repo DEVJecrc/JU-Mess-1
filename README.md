@@ -1,0 +1,2 @@
+# JU-Mess
+Our strategy is to develop a digital platform through an android application and a website in order to to bring all the included parties onto one page where they can communicate and interact about the common and generic topics. The purpose of this project is to provide the residents and the authorities of JECRC University with an interface to track their activities and make day-to-day tasks easier.
